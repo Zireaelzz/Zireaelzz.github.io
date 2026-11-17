@@ -1,20 +1,27 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
-  <title>Your Name | Academic Website</title>
+  <meta name="description"
+        content="Academic website of Yue (Joyce) Ma,
+        M.S. student at the University of Colorado Boulder.">
+
+  <title>Yue (Joyce) Ma | Academic Website</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="container">
-      <a class="brand" href="#">Your Name</a>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="container navigation">
+      <a class="brand" href="#top">Yue (Joyce) Ma</a>
 
       <div class="nav-links">
         <a href="#about">About</a>
@@ -25,86 +32,168 @@
     </nav>
   </header>
 
-  <main class="container">
+  <main id="top" class="container">
 
+    <!-- About Me -->
     <section id="about" class="hero">
-      <p class="eyebrow">ACADEMIC PROFILE</p>
 
-      <h1>Your Name</h1>
+      <div class="hero-text">
 
-      <p class="subtitle">
-        M.S. Student in Civil Engineering
-        <br>
-        University of Colorado Boulder
-      </p>
+        <p class="eyebrow">ACADEMIC PROFILE</p>
 
-      <h2>About Me</h2>
+        <h1>Yue (Joyce) Ma</h1>
 
-      <p>
-        I am a master's student in Civil Engineering,
-        specializing in Geotechnical Engineering,
-        at the University of Colorado Boulder.
-      </p>
+        <p class="pronouns">Pronouns: She/They</p>
 
-      <p>
-        My research interests include rock mechanics,
-        computational geomechanics, rock fracture,
-        and geophysics.
-      </p>
+        <p class="subtitle">
+          M.S. Student in Civil Engineering
+          <br>
+          University of Colorado Boulder
+        </p>
+
+        <h2>About Me</h2>
+
+        <p>
+          I am a master's student in Civil Engineering,
+          specializing in Geotechnical Engineering,
+          at the University of Colorado Boulder.
+        </p>
+
+        <p>
+          I received my undergraduate education in
+          Geophysics from the Southern University of
+          Science and Technology (SUSTech), China.
+        </p>
+
+        <p>
+          My research interests lie at the intersection
+          of rock mechanics, computational geomechanics,
+          and geophysics, with a particular focus on
+          rock deformation, fracture, and
+          thermo-mechanical damage.
+        </p>
+
+      </div>
+
+      <!-- Profile Photo -->
+      <div class="hero-photo">
+        <img
+          src="profile.png"
+          alt="Portrait of Yue (Joyce) Ma"
+          class="profile-image"
+        >
+      </div>
+
     </section>
 
+    <!-- Education -->
     <section id="education">
+
       <h2>Education</h2>
 
       <div class="entry">
         <h3>University of Colorado Boulder</h3>
-        <p>M.S. in Civil Engineering</p>
-        <p>2025 – 2027 (Expected)</p>
+        <p class="degree">
+          Master of Science in Civil Engineering
+        </p>
+        <p class="field">
+          Geotechnical Engineering
+        </p>
+        <p class="date">
+          2025 – 2027 (Expected)
+        </p>
       </div>
 
       <div class="entry">
         <h3>
-          Southern University of Science
-          and Technology
+          Southern University of Science and Technology
         </h3>
-        <p>Geophysics</p>
+        <p class="degree">
+          Bachelor of Science in Geophysics
+        </p>
       </div>
+
+      <div class="entry">
+        <h3>
+          No. 1 Middle School Affiliated to
+          Central China Normal University
+        </h3>
+        <p class="degree">High School</p>
+      </div>
+
     </section>
 
+    <!-- Research -->
     <section id="research">
-      <h2>Research Interests</h2>
 
-      <ul>
+      <h2>Research</h2>
+
+      <h3>Research Interests</h3>
+
+      <ul class="research-list">
         <li>Rock Mechanics and Fracture</li>
         <li>Computational Geomechanics</li>
         <li>Thermo-Mechanical Damage</li>
         <li>Crustal Deformation</li>
+        <li>Geophysics and Earthquake Processes</li>
       </ul>
 
       <h3>Current Research</h3>
 
-      <p>
-        Numerical modeling of wildfire-induced
-        rock spalling and thermo-mechanical
-        damage evolution in rock materials.
-      </p>
+      <div class="research-project">
+        <h4>Wildfire-Induced Rock Spalling</h4>
+
+        <p>
+          My current research focuses on numerical
+          modeling of wildfire-induced rock spalling,
+          investigating thermo-mechanical damage,
+          rock fracture, and surface evolution under
+          repeated thermal loading.
+        </p>
+
+        <p>
+          I use finite element modeling to study
+          rock deformation and damage evolution
+          under coupled thermal and mechanical
+          processes.
+        </p>
+      </div>
+
     </section>
 
+    <!-- Contact -->
     <section id="contact">
+
       <h2>Contact</h2>
 
       <p>
-        Email:
-        <a href="mailto:your-email@example.com">
-          your-email@example.com
+        <strong>Email:</strong>
+        <a href="mailto:Yue.Ma@colorado.edu">
+          Yue.Ma@colorado.edu
         </a>
       </p>
+
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/Zireaelzz"
+           target="_blank"
+           rel="noopener noreferrer">
+          github.com/Zireaelzz
+        </a>
+      </p>
+
     </section>
 
   </main>
 
-  <footer>
-    <p>© 2026 Your Name</p>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2026 Yue (Joyce) Ma.
+      Built with GitHub Pages.
+    </p>
   </footer>
+
 </body>
 </html>
+
